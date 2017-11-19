@@ -1,0 +1,29 @@
+{
+  "name": "nightwatch101",
+  "version": "1.0.0",
+  "description": "nightwatch for end-to-end testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cythilya/nightwatch101.git"
+  },
+  "keywords": [
+    "nightwatch",
+    "end-to-end",
+    "testing",
+    "selenium",
+    "webdriver"
+  ],
+  "author": {
+    "name": "Hsin-Hao Tang",
+    "url": "https://github.com/cythilya"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cythilya/nightwatch101/issues"
+  },
+  "homepage": "https://github.com/cythilya/nightwatch101#readme"
+}
