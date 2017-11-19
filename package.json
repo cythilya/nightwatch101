@@ -4,7 +4,7 @@
   "description": "nightwatch for end-to-end testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/nightwatch --env local"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/cythilya/nightwatch101/issues"
   },
-  "homepage": "https://github.com/cythilya/nightwatch101#readme"
+  "homepage": "https://github.com/cythilya/nightwatch101#readme",
+  "dependencies": {
+    "nightwatch": "^0.9.16",
+    "selenium-download": "^2.0.10"
+  }
 }
