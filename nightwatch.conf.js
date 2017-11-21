@@ -7,7 +7,7 @@ const config = {
   "output_folder": "./node_modules/nightwatch/reports",
   "selenium": {
     "start_process": true,
-    "server_path": "bin/selenium.jar",
+    "server_path": "./bin/selenium.jar",
     "log_path": "",
     "host": "127.0.0.1",
     "port": 4444,
