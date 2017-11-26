@@ -15,6 +15,7 @@ const config = {
       "webdriver.chrome.driver": BINPATH + "chromedriver"
     }
   },
+  // "live_output" : true,
   "test_workers" : {
     "enabled" : true,
     "workers" : "auto"
