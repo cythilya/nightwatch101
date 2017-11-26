@@ -22,11 +22,16 @@ const config = {
   "test_settings": {
     "default": {
       "launch_url": "http://localhost",
-      "selenium_port": 80,
-      "selenium_host": "",
+      "selenium_port": 4444,
+      "selenium_host": "127.0.0.1",
       "silent": true,
       "globals": {
         "waitForConditionTimeout": 10000
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
       }
     },
     "local": {

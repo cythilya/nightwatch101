@@ -1,6 +1,6 @@
 {
   "name": "nightwatch101",
-  "version": "1.0.0",
+  "version": "0.0.9",
   "description": "nightwatch for end-to-end testing",
   "main": "index.js",
   "scripts": {
