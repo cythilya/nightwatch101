@@ -16,5 +16,15 @@ module.exports = {
     submit: {
       selector: '.rt-site-search-submit'
     }
+  },
+  sections: {
+    filter: {
+      selector: '#side_filter',
+      elements: {
+        title: {
+          selector: '.rt-filter-title'
+        }
+      }
+    }
   }
 };
