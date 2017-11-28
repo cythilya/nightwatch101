@@ -5,6 +5,7 @@ const config = {
     "test/e2e"
   ],
   "output_folder": "./node_modules/nightwatch/reports",
+  "page_objects_path": './page_objects',
   "selenium": {
     "start_process": true,
     "server_path": "./bin/selenium.jar",
