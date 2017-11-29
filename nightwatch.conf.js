@@ -6,6 +6,7 @@ const config = {
   ],
   "output_folder": "./node_modules/nightwatch/reports",
   "page_objects_path": './page_objects',
+  "custom_commands_path": './custom_commands',
   "selenium": {
     "start_process": true,
     "server_path": "./bin/selenium.jar",

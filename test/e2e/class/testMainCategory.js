@@ -5,6 +5,9 @@ module.exports = {
   'Demo Ruten MainCategory Page': browser => {
     browser
       .url('http://class.ruten.com.tw/category/main?0008')
+      .countElementNumber('a', function(result) {
+        console.log(result.value);
+      })
       .end()
   }
 }
