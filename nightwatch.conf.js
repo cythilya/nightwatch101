@@ -8,6 +8,7 @@ const config = {
   "output_folder": "./reports",
   "page_objects_path": './page_objects',
   "custom_commands_path": './custom_commands',
+  "custom_assertions_path": './custom_assertions',
   "selenium": {
     "start_process": true,
     "server_path": "./bin/selenium.jar",
