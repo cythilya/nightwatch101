@@ -1,10 +1,11 @@
 const PKG = require('./package.json');
 const BINPATH = './node_modules/nightwatch/bin/';
+const globals = './globals.js';
 const config = {
   "src_folders": [
     "test/e2e"
   ],
-  "output_folder": "./node_modules/nightwatch/reports",
+  "output_folder": "./reports",
   "page_objects_path": './page_objects',
   "custom_commands_path": './custom_commands',
   "selenium": {
@@ -79,6 +80,7 @@ const config = {
         "version": "11.0"
       }
     }
-  }
+  } /*,
+  reporter : globals.reporter */
 }
 module.exports = config;
