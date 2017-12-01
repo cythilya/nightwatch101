@@ -1,4 +1,6 @@
 # Nightwatch101
+手牽手一起來學 Nightwatch！
+
 ![Nightwatch.js](https://cythilya.github.io/assets/nightwatch101/nightwatch.png)
 
 <!-- 教學請見[這裡](https://cythilya.github.io/tags/nightwatch101)。 -->
