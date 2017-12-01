@@ -5,9 +5,9 @@
 
   <testsuite name="point.test1111"
     errors="0" failures="0" hostname="" id="" package="point" skipped="0"
-    tests="1" time="12.63" timestamp="Fri, 01 Dec 2017 13:33:28 GMT">
+    tests="1" time="13.79" timestamp="Fri, 01 Dec 2017 14:14:48 GMT">
   
-    <testcase name="Demo Ruten Campaign 1111 Page" classname="point.test1111" time="12.63" assertions="0">
+    <testcase name="Demo Ruten Campaign 1111 Page" classname="point.test1111" time="13.79" assertions="0">
     </testcase>
   
 

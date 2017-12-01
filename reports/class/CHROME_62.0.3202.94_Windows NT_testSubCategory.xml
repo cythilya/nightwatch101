@@ -5,9 +5,11 @@
 
   <testsuite name="class.testSubCategory"
     errors="0" failures="0" hostname="" id="" package="class" skipped="0"
-    tests="1" time="28.94" timestamp="Fri, 01 Dec 2017 13:33:17 GMT">
+    tests="1" time="10.21" timestamp="Fri, 01 Dec 2017 14:46:21 GMT">
   
-    <testcase name="Demo Ruten SubCategory Page" classname="class.testSubCategory" time="28.94" assertions="0">
+    <testcase name="Demo Ruten SubCategory Page" classname="class.testSubCategory" time="10.21" assertions="1">
+
+    
     </testcase>
   
 
