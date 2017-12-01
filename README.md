@@ -5,8 +5,6 @@
 
 安裝步驟如下。
 
-[Node.js](https://nodejs.org/) 和 [npm](https://www.npmjs.com/) 是必須的。
-
 ## Step 1：安裝 Nightwatch
 安裝最新版的 Nightwatch。
 
