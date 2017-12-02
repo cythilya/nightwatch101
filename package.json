@@ -27,8 +27,6 @@
   },
   "homepage": "https://github.com/cythilya/nightwatch101#readme",
   "dependencies": {
-    "nightwatch": "^0.9.16",
-    "nightwatch-html-reporter": "^2.0.4",
-    "selenium-download": "^2.0.10"
+    "nightwatch": "^0.9.9"
   }
 }
