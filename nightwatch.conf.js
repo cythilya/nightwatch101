@@ -1,7 +1,7 @@
 const PKG = require('./package.json');
 const BINPATH = './node_modules/nightwatch/bin/';
-const globals = './globals.js';
-const config = {
+const GLOBALS = './globals.js';
+const CONFIG = {
   "src_folders": [
     "test/e2e"
   ],
@@ -82,6 +82,7 @@ const config = {
       }
     }
   } /*,
-  reporter : globals.reporter */
+  reporter: GLOBALS.reporter */
 }
-module.exports = config;
+
+module.exports = CONFIG;
