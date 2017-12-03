@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="member.testLogin"
+    errors="0" failures="0" hostname="" id="" package="member" skipped="0"
+    tests="1" time="11.39" timestamp="Sun, 03 Dec 2017 00:45:58 GMT">
+  
+    <testcase name="Ruten Login" classname="member.testLogin" time="11.39" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
