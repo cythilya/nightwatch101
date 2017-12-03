@@ -2,9 +2,9 @@ var conf = require('../../nightwatch.conf.js');
 
 module.exports = {
   '@tags': ['index'],
-  'Demo Ruten Index Page': browser => {
+  'Demo Test': browser => {
     browser
-      .url('http://www.ruten.com.tw/')
+      .url('https://cythilya.github.io/')
       .end()
   }
 }
