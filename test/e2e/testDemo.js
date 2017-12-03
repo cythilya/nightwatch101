@@ -5,5 +5,5 @@ module.exports = {
     browser
       .url('https://cythilya.github.io/')
       .end()
-  }
+    }
 }
