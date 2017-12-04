@@ -5,9 +5,9 @@
 
   <testsuite name="testDemo"
     errors="0" failures="0" hostname="" id="" package="testDemo" skipped="0"
-    tests="1" time="8.204" timestamp="Fri, 01 Dec 2017 14:15:02 GMT">
+    tests="1" time="4.853" timestamp="Sun, 03 Dec 2017 05:41:59 GMT">
   
-    <testcase name="Demo Ruten Index Page" classname="testDemo" time="8.204" assertions="0">
+    <testcase name="Demo Test" classname="testDemo" time="4.853" assertions="0">
     </testcase>
   
 

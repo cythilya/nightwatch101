@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="class.testMainCategoryAssert"
+    errors="1" failures="0" hostname="" id="" package="class" skipped="0"
+    tests="1" time="0.01000" timestamp="Mon, 04 Dec 2017 13:20:20 GMT">
+  
+    <testcase name="Assert Categoty Advertisements" classname="class.testMainCategoryAssert" time="0.01000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Class / Test Main Category Assert / Assert Categoty Advertisements]:
+
+  TypeError: browser.rtUrl is not a function
+    at Object.Assert Categoty Advertisements (d:\git\nightwatch101\test\e2e\class\testMainCategoryAssert.js:7:8)
+    at Module.call (c:\Users\Jimmy\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at c:\Users\Jimmy\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (c:\Users\Jimmy\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (c:\Users\Jimmy\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (c:\Users\Jimmy\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at c:\Users\Jimmy\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (c:\Users\Jimmy\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (c:\Users\Jimmy\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

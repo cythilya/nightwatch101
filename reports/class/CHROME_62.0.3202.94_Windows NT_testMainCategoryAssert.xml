@@ -3,11 +3,27 @@
             failures="0"
             tests="1">
 
-  <testsuite name="class.testSubCategory"
+  <testsuite name="class.testMainCategoryAssert"
     errors="0" failures="0" hostname="" id="" package="class" skipped="0"
-    tests="1" time="17.56" timestamp="Sat, 02 Dec 2017 13:26:00 GMT">
+    tests="1" time="10.86" timestamp="Mon, 04 Dec 2017 13:28:15 GMT">
   
-    <testcase name="Demo Ruten SubCategory Page" classname="class.testSubCategory" time="17.56" assertions="26">
+    <testcase name="Assert Categoty Advertisements" classname="class.testMainCategoryAssert" time="10.86" assertions="34">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
 
