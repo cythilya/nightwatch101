@@ -6,23 +6,16 @@ var reporter = new HtmlReporter({
 
 module.exports = {
   reporter: reporter.fn,
-  before: function(browser) {
-    // console.log('Setting up...');
+  before: function(done) {
+    done();
   },
-  after: function(browser) {
-    // console.log('Closing down...');
+  after: function(done) {
+    done();
   },
   beforeEach: function(browser, done) {
-    // console.log('Before each test case...');
-
-    setTimeout(function() {
-      done();
-    }, 100);
+    done();
   },
   afterEach: function(browser, done) {
-    // console.log('After each test case...');
-
-    setTimeout(function() {
-      done();
-    }, 200);
+    done();
+  }
 };
