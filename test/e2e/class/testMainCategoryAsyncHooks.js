@@ -14,8 +14,8 @@ module.exports = {
     // performing an async operation
     setTimeout(function() {
       // finished async duties
-      // done(new Error('explicit failure'));
-      done();
+      done(new Error('這是客製化報錯喔!'));
+      //done();
     }, 100);
   },
   afterEach : function(browser, done) {
@@ -24,8 +24,8 @@ module.exports = {
     // performing an async operation
     setTimeout(function() {
       // finished async duties
-      // done(new Error('explicit failure'));
-      done();
+       done(new Error('這是客製化報錯喔!'));
+      //done();
     }, 200);
   },
   'Assert Ruten MainCategory Title 0008': browser => {
