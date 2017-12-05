@@ -28,5 +28,9 @@
   "homepage": "https://github.com/cythilya/nightwatch101#readme",
   "dependencies": {
     "nightwatch": "^0.9.9"
-  }
+  },
+  "devDependencies": {
+    "chromedriver": "^2.33.2",
+    "selenium-server": "^3.8.1"
+  }  
 }
