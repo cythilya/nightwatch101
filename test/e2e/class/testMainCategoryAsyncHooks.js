@@ -2,30 +2,30 @@ var conf = require('../../../nightwatch.conf.js');
 
 module.exports = {
   '@tags': ['class'],
-  before : function(browser) {
+  before: function(browser) {
     console.log('Setting up...');
   },
-  after : function(browser) {
+  after: function(browser) {
     console.log('Closing down...');
   },
-  beforeEach : function(browser, done) {
+  beforeEach: function(browser, done) {
     console.log('Before each test case...');
 
     // performing an async operation
     setTimeout(function() {
       // finished async duties
-      done(new Error('這是客製化報錯喔!'));
-      //done();
+      // done(new Error('這是客製化報錯喔!'));
+      done();
     }, 100);
   },
-  afterEach : function(browser, done) {
+  afterEach: function(browser, done) {
     console.log('After each test case...');
 
     // performing an async operation
     setTimeout(function() {
       // finished async duties
-       done(new Error('這是客製化報錯喔!'));
-      //done();
+      // done(new Error('這是客製化報錯喔!'));
+      done();
     }, 200);
   },
   'Assert Ruten MainCategory Title 0008': browser => {
