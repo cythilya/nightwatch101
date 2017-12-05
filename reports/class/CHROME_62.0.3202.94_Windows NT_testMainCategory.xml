@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="2">
+            tests="1">
 
   <testsuite name="class.testMainCategory"
     errors="0" failures="0" hostname="" id="" package="class" skipped="0"
-    tests="2" time="11.97" timestamp="Mon, 04 Dec 2017 14:24:53 GMT">
+    tests="1" time="46.50" timestamp="Tue, 05 Dec 2017 13:29:51 GMT">
   
-    <testcase name="Assert Ruten MainCategory Title" classname="class.testMainCategory" time="6.522" assertions="2">
+    <testcase name="Assert Ruten MainCategory Title" classname="class.testMainCategory" time="46.50" assertions="2">
 
     
 
     
-    </testcase>
-  
-    <testcase name="Demo Ruten Main Category Page" classname="class.testMainCategory" time="5.444" assertions="0">
     </testcase>
   
 

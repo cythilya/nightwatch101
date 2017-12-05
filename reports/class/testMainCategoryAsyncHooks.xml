@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="2">
+
+  <testsuite name="class.testMainCategoryAsyncHooks"
+    errors="2" failures="0" hostname="" id="" package="class" skipped="1"
+    tests="2" time="0.3140" timestamp="Tue, 05 Dec 2017 13:43:26 GMT">
+  
+    <testcase name="Assert Ruten MainCategory Title 0008" classname="class.testMainCategoryAsyncHooks" time="0.3140" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Class / Test Main Category Async Hooks / Assert Ruten MainCategory Title 0008]:
+
+  ReferenceError: done is not defined
+    at Timeout._onTimeout (d:\git\nightwatch101\test\e2e\class\testMainCategoryAsyncHooks.js:17:7)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  Error while running [Class / Test Main Category Async Hooks / Assert Ruten MainCategory Title 0008]:
+
+  Error: explicit failure
+    at Timeout._onTimeout (d:\git\nightwatch101\test\e2e\class\testMainCategoryAsyncHooks.js:26:12)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Assert Ruten MainCategory Title 0011" classname="class.testMainCategoryAsyncHooks">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
