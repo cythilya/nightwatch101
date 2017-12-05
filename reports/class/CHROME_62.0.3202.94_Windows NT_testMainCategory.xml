@@ -1,97 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="5">
+            tests="2">
 
   <testsuite name="class.testMainCategory"
     errors="0" failures="0" hostname="" id="" package="class" skipped="0"
-    tests="5" time="30.84" timestamp="Mon, 04 Dec 2017 13:12:13 GMT">
+    tests="2" time="11.97" timestamp="Mon, 04 Dec 2017 14:24:53 GMT">
   
-    <testcase name="Assert Ruten MainCategory Title" classname="class.testMainCategory" time="6.654" assertions="2">
+    <testcase name="Assert Ruten MainCategory Title" classname="class.testMainCategory" time="6.522" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Assert Ruten MainCategory Title Again (after)" classname="class.testMainCategory" time="5.843" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Assert Ruten MainCategory Title Again (before)" classname="class.testMainCategory" time="5.873" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Assert Advertisements Status" classname="class.testMainCategory" time="6.918" assertions="28">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Demo Ruten Main Category Page" classname="class.testMainCategory" time="5.547" assertions="0">
+    <testcase name="Demo Ruten Main Category Page" classname="class.testMainCategory" time="5.444" assertions="0">
     </testcase>
   
 
