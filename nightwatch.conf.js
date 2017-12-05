@@ -1,6 +1,7 @@
 const PKG = require('./package.json');
-const BINPATH = './node_modules/nightwatch/bin/';
 const GLOBALS = './globals.js';
+const seleniumServer = require('selenium-server');
+const chromedriver = require('chromedriver');
 const CONFIG = {
   "src_folders": [
     "test/e2e"
@@ -11,12 +12,12 @@ const CONFIG = {
   "custom_assertions_path": './custom_assertions',
   "selenium": {
     "start_process": true,
-    "server_path": "./bin/selenium.jar",
+    "server_path": seleniumServer.path,
     "log_path": "",
     "host": "127.0.0.1",
     "port": 4444,
     "cli_args": {
-      "webdriver.chrome.driver": BINPATH + "chromedriver"
+      "webdriver.chrome.driver": chromedriver.path
     }
   },
   // "live_output" : true,
