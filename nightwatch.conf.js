@@ -21,10 +21,10 @@ const CONFIG = {
       "webdriver.chrome.driver": chromedriver.path
     }
   },
-  // "live_output" : true,
+  // "live_output": true,
   "test_workers" : {
-    "enabled" : true,
-    "workers" : "auto"
+    "enabled": true,
+    "workers": "auto"
   },
   "test_settings": {
     "default": {
