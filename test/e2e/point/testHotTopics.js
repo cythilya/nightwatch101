@@ -1,5 +1,3 @@
-var conf = require('../../../nightwatch.conf.js');
-
 module.exports = {
   '@tags': ['point'],
   'Demo Ruten Campaign Hot Topics Page': browser => {

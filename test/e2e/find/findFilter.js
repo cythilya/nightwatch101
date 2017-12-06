@@ -3,9 +3,9 @@ require('../../../page_objects/findPage.js')
 
 module.exports = {
   '@tags': ['find'],
-  '@disabled': true,
   'Assert Filter Visible': function (client) {
     var findPage = client.page.findPage();
+    findPage.navigate();
     findPage.expect.section('@filter').to.be.visible;
 
     var filterSection = findPage.section.filter;

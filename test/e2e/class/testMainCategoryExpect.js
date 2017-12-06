@@ -5,7 +5,7 @@ module.exports = {
   'Assert Advertisements Status': browser => {
     browser.url('http://class.ruten.com.tw/category/main?0008');
     browser.waitForElementVisible('body');
-    browser.expect.element('.rt-ad-text-only .rt-ad-item').css('display').to.equals('none');
+    browser.expect.element('.rt-ad-text-only .rt-ad-item').css('display').to.equals('inline-block');
     browser.expect.element('.promo-bar').to.be.present;
     browser.expect.element('.rt-subcategory-list .rt-subcategory-item').to.be.present;
     browser.expect.element('#ad-flash').to.be.visible;
