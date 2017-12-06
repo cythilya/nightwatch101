@@ -5,16 +5,16 @@
 
   <testsuite name="class.testMainCategoryHooks"
     errors="0" failures="0" hostname="" id="" package="class" skipped="0"
-    tests="2" time="12.84" timestamp="Tue, 05 Dec 2017 13:42:00 GMT">
+    tests="2" time="20.78" timestamp="Wed, 06 Dec 2017 06:01:13 GMT">
   
-    <testcase name="Assert Ruten MainCategory Title 0008" classname="class.testMainCategoryHooks" time="7.446" assertions="2">
+    <testcase name="Assert Ruten MainCategory Title 0008" classname="class.testMainCategoryHooks" time="11.01" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Assert Ruten MainCategory Title 0011" classname="class.testMainCategoryHooks" time="5.397" assertions="2">
+    <testcase name="Assert Ruten MainCategory Title 0011" classname="class.testMainCategoryHooks" time="9.765" assertions="2">
 
     
 

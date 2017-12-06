@@ -5,9 +5,9 @@
 
   <testsuite name="find.findPusheen"
     errors="0" failures="0" hostname="" id="" package="find" skipped="0"
-    tests="1" time="58.72" timestamp="Tue, 05 Dec 2017 13:32:01 GMT">
+    tests="1" time="22.41" timestamp="Wed, 06 Dec 2017 06:02:02 GMT">
   
-    <testcase name="Find Pusheen" classname="find.findPusheen" time="58.72" assertions="2">
+    <testcase name="Find Pusheen" classname="find.findPusheen" time="22.41" assertions="2">
 
     
 

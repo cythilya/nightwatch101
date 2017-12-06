@@ -5,9 +5,9 @@
 
   <testsuite name="disabled.testDisabledTestCase"
     errors="0" failures="0" hostname="" id="" package="disabled" skipped="0"
-    tests="1" time="28.19" timestamp="Tue, 05 Dec 2017 13:31:33 GMT">
+    tests="1" time="5.943" timestamp="Wed, 06 Dec 2017 06:06:02 GMT">
   
-    <testcase name="Demo Google Page 1" classname="disabled.testDisabledTestCase" time="28.19" assertions="0">
+    <testcase name="Demo Google Page 1" classname="disabled.testDisabledTestCase" time="5.943" assertions="0">
     </testcase>
   
 

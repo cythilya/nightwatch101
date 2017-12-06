@@ -5,9 +5,9 @@
 
   <testsuite name="class.testMainCategoryCustomCommands"
     errors="0" failures="0" hostname="" id="" package="class" skipped="0"
-    tests="1" time="43.14" timestamp="Tue, 05 Dec 2017 13:29:51 GMT">
+    tests="1" time="16.81" timestamp="Wed, 06 Dec 2017 06:00:52 GMT">
   
-    <testcase name="Demo Ruten Main Category Page" classname="class.testMainCategoryCustomCommands" time="43.14" assertions="0">
+    <testcase name="Demo Ruten Main Category Page" classname="class.testMainCategoryCustomCommands" time="16.81" assertions="0">
     </testcase>
   
 

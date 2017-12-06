@@ -5,9 +5,9 @@
 
   <testsuite name="member.testLogin"
     errors="0" failures="1" hostname="" id="" package="member" skipped="0"
-    tests="1" time="45.72" timestamp="Tue, 05 Dec 2017 13:32:03 GMT">
+    tests="1" time="22.23" timestamp="Wed, 06 Dec 2017 06:02:03 GMT">
   
-    <testcase name="Ruten Login" classname="member.testLogin" time="45.72" assertions="2">
+    <testcase name="Ruten Login" classname="member.testLogin" time="22.23" assertions="2">
 
       <failure message="Testing if the URL contains &quot;http://www.ruten.com.tw/&quot;.">    at Object.Ruten Login (d:\git\nightwatch101\test\e2e\member\testLogin.js:14:13)
     at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
