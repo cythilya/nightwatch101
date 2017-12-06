@@ -3,13 +3,11 @@
             failures="0"
             tests="1">
 
-  <testsuite name="find.findPusheen"
+  <testsuite name="find.findFilter"
     errors="0" failures="0" hostname="" id="" package="find" skipped="0"
-    tests="1" time="12.99" timestamp="Wed, 06 Dec 2017 06:56:52 GMT">
+    tests="1" time="7.551" timestamp="Wed, 06 Dec 2017 06:46:04 GMT">
   
-    <testcase name="Find Pusheen" classname="find.findPusheen" time="12.99" assertions="3">
-
-    
+    <testcase name="Assert Filter Visible" classname="find.findFilter" time="7.551" assertions="2">
 
     
 

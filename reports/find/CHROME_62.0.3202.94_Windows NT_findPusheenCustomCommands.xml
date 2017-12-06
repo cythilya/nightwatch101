@@ -3,11 +3,11 @@
             failures="0"
             tests="1">
 
-  <testsuite name="find.findPusheen"
+  <testsuite name="find.findPusheenCustomCommands"
     errors="0" failures="0" hostname="" id="" package="find" skipped="0"
-    tests="1" time="12.99" timestamp="Wed, 06 Dec 2017 06:56:52 GMT">
+    tests="1" time="19.96" timestamp="Wed, 06 Dec 2017 06:58:50 GMT">
   
-    <testcase name="Find Pusheen" classname="find.findPusheen" time="12.99" assertions="3">
+    <testcase name="Find Pusheen" classname="find.findPusheenCustomCommands" time="19.96" assertions="3">
 
     
 
