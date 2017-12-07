@@ -41,5 +41,19 @@ npm test
 nightwatch
 ```
 
+## 測試報告
+安裝 [nightwatch-html-reporter](nightwatch-html-reporter)。
+
+```
+npm install nightwatch-html-reporter -g
+```
+
+執行指令如下，跑一次測試程式，解析 Nightwatch 所產生的 XML 檔案，最後產生客製化測試報告。
+
+```
+nightwatch test/e2e/
+nightwatch-html-reporter -d ./reports
+```
+
 ## 教學
 待補。
