@@ -56,4 +56,4 @@ nightwatch-html-reporter -d ./reports
 ```
 
 ## 教學
-待補。
+待 2018 鐵人賽補好補滿。
