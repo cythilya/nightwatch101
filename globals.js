@@ -1,6 +1,6 @@
 var HtmlReporter = require('nightwatch-html-reporter');
 var reporter = new HtmlReporter({
-  openBrowser: true,
+  openBrowser: false,
   reportsDirectory: __dirname + '/reports'
 });
 
