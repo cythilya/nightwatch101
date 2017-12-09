@@ -2,7 +2,7 @@ const PKG = require('./package.json');
 const GLOBALS = './globals.js';
 const seleniumServer = require('selenium-server');
 const chromedriver = require('chromedriver');
-const CONFIG = {
+const config = {
   "src_folders": [
     "test/e2e"
   ],
@@ -65,4 +65,4 @@ const CONFIG = {
   }
 }
 
-module.exports = CONFIG;
+module.exports = config;
