@@ -4,7 +4,7 @@
 ![Nightwatch.js](https://cythilya.github.io/assets/nightwatch101/nightwatch.png)
 
 ## 安裝
-安裝步驟如下。
+簡易安裝步驟如下。
 
 ### Step 1：安裝 Java Development Kit（JDK）
 安裝 [Java Development Kit（JDK）](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)，至少版本 7 以上。
