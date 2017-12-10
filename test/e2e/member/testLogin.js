@@ -1,5 +1,3 @@
-var conf = require('../../../nightwatch.conf.js');
-
 module.exports = {
   // '@disabled': true,
   'Ruten Login': function (browser) {
