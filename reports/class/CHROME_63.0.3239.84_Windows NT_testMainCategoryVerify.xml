@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="class.testMainCategoryVerify"
+    errors="0" failures="0" hostname="" id="" package="class" skipped="0"
+    tests="1" time="25.08" timestamp="Sun, 10 Dec 2017 03:24:36 GMT">
+  
+    <testcase name="Assert Categoty Advertisements" classname="class.testMainCategoryVerify" time="25.08" assertions="34">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
