@@ -12,7 +12,7 @@ const config = {
   "custom_assertions_path": './custom_assertions',
   "globals_path": GLOBALS,
   "selenium": {
-    "start_process": true,
+    "start_process": false,
     "server_path": seleniumServer.path,
     "log_path": "",
     "host": "127.0.0.1",
@@ -29,15 +29,14 @@ const config = {
   "test_settings": {
     "default": {
       "launch_url": "http://localhost",
-      "selenium_port": 4444,
-      "selenium_host": "127.0.0.1",
-      "silent": true,
-      "globals": {
-        "waitForConditionTimeout": 10000
-      },
+      "selenium_port": 9515,
+      "selenium_host": "localhost",
+      "default_path_prefix" : "",
       "desiredCapabilities": {
         "browserName": "chrome",
-        "javascriptEnabled": true,
+        "chromeOptions" : {
+          "args" : ["--no-sandbox"]
+        },
         "acceptSslCerts": true
       }
     },
