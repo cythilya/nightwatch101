@@ -42,3 +42,5 @@ nightwatch-html-reporter -d ./reports
 
 ## 教學
 待 2018 鐵人賽補好補滿。
+
+1. [前言：使用 Nightwatch 實現 End-to-End Testing](https://cythilya.github.io/2017/12/11/nightwatch-intro/)
