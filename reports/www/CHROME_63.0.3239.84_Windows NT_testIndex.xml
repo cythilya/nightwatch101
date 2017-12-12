@@ -5,9 +5,9 @@
 
   <testsuite name="www.testIndex"
     errors="0" failures="0" hostname="" id="" package="www" skipped="0"
-    tests="1" time="10.60" timestamp="Sun, 10 Dec 2017 03:25:56 GMT">
+    tests="1" time="10.24" timestamp="Tue, 12 Dec 2017 12:01:10 GMT">
   
-    <testcase name="Demo Ruten Index Page" classname="www.testIndex" time="10.60" assertions="0">
+    <testcase name="Demo Ruten Index Page" classname="www.testIndex" time="10.24" assertions="0">
     </testcase>
   
 

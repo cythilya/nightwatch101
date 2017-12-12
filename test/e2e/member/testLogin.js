@@ -1,6 +1,6 @@
 module.exports = {
   // '@disabled': true,
-  'Ruten Login': function (browser) {
+  'Ruten Login': browser => {
     browser
     .url('https://member.ruten.com.tw/user/login.htm')
     .waitForElementVisible('body', 1000)

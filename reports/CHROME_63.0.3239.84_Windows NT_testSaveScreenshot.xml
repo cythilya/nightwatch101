@@ -5,9 +5,9 @@
 
   <testsuite name="testSaveScreenshot"
     errors="0" failures="0" hostname="" id="" package="testSaveScreenshot" skipped="0"
-    tests="1" time="11.89" timestamp="Sun, 10 Dec 2017 03:25:56 GMT">
+    tests="1" time="13.85" timestamp="Tue, 12 Dec 2017 12:01:08 GMT">
   
-    <testcase name="Demo Test" classname="testSaveScreenshot" time="11.89" assertions="0">
+    <testcase name="Demo Test" classname="testSaveScreenshot" time="13.85" assertions="0">
     </testcase>
   
 

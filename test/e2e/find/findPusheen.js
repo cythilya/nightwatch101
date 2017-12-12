@@ -1,10 +1,9 @@
-var conf = require('../../../nightwatch.conf.js');
 require('../../../page_objects/findPage.js')
 
 module.exports = {
   '@tags': ['find'],
-  'Find Pusheen': function (client) {
-    var findPage = client.page.findPage();
+  'Find Pusheen': function (browser) {
+    var findPage = browser.page.findPage();
 
     findPage.navigate()
       .assert.title('搜尋結果 : Pusheen - 露天拍賣')
@@ -13,6 +12,6 @@ module.exports = {
       .setValue('@searchbox', 'Pusheen')
       .click('@submit');
 
-    client.end();
+    browser.end();
   }
 };

@@ -1,5 +1,3 @@
-var conf = require('../../../nightwatch.conf.js');
-
 module.exports = {
   'Demo Google Page 1': function(browser) {
     browser

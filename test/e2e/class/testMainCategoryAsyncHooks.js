@@ -1,5 +1,3 @@
-var conf = require('../../../nightwatch.conf.js');
-
 module.exports = {
   '@tags': ['class'],
   before: function(browser) {

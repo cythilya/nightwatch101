@@ -5,9 +5,9 @@
 
   <testsuite name="find.findFilter"
     errors="0" failures="0" hostname="" id="" package="find" skipped="0"
-    tests="1" time="22.89" timestamp="Sun, 10 Dec 2017 03:25:06 GMT">
+    tests="1" time="16.27" timestamp="Tue, 12 Dec 2017 12:00:29 GMT">
   
-    <testcase name="Assert Filter Visible" classname="find.findFilter" time="22.89" assertions="2">
+    <testcase name="Assert Filter Visible" classname="find.findFilter" time="16.27" assertions="2">
 
     
 
