@@ -45,3 +45,4 @@ nightwatch-html-reporter -d ./reports
 
 1. [前言：使用 Nightwatch 實現 End-to-End Testing](https://cythilya.github.io/2017/12/11/nightwatch-intro/)
 2. [Nightwatch 與 Selenium Webdriver](https://cythilya.github.io/2017/12/12/nightwatch-and-selenium-webdriver/)
+3. [環境建置](https://cythilya.github.io/2017/12/13/nightwatch-installation/)
