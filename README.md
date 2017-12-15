@@ -47,3 +47,4 @@ nightwatch-html-reporter -d ./reports
 2. [Nightwatch 與 Selenium Webdriver](https://cythilya.github.io/2017/12/12/nightwatch-and-selenium-webdriver/)
 3. [環境建置](https://cythilya.github.io/2017/12/13/nightwatch-installation/)
 4. [設定檔](https://cythilya.github.io/2017/12/14/04-nightwatch-config/)
+5. [使用 CSS Selector 定位網頁元素](https://cythilya.github.io/2017/12/15/nightwatch-css-selector/)
