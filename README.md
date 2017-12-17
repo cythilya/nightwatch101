@@ -49,3 +49,4 @@ nightwatch-html-reporter -d ./reports
 4. [設定檔](https://cythilya.github.io/2017/12/14/04-nightwatch-config/)
 5. [使用 CSS Selector 定位網頁元素](https://cythilya.github.io/2017/12/15/nightwatch-css-selector/)
 6. [使用 Xpath 定位網頁元素](https://cythilya.github.io/2017/12/16/nightwatch-xpath/)
+7. [指令 Part 1](https://cythilya.github.io/2017/12/17/nightwatch-commands-part-1/)
