@@ -43,11 +43,14 @@ nightwatch-html-reporter -d ./reports
 ## 教學
 待 2018 鐵人賽補好補滿。
 
-1. [前言：使用 Nightwatch 實現 End-to-End Testing](https://cythilya.github.io/2017/12/11/nightwatch-intro/)
+1. [前言](https://cythilya.github.io/2017/12/11/nightwatch-intro/)
 2. [Nightwatch 與 Selenium Webdriver](https://cythilya.github.io/2017/12/12/nightwatch-and-selenium-webdriver/)
 3. [環境建置](https://cythilya.github.io/2017/12/13/nightwatch-installation/)
-4. [設定檔](https://cythilya.github.io/2017/12/14/04-nightwatch-config/)
+4. [設定檔](https://cythilya.github.io/2017/12/14/nightwatch-config/)
 5. [使用 CSS Selector 定位網頁元素](https://cythilya.github.io/2017/12/15/nightwatch-css-selector/)
+6. [使用 Xpath 定位網頁元素](https://cythilya.github.io/2017/12/16/nightwatch-xpath/)
+7. [指令 Part 1](https://cythilya.github.io/2017/12/17/nightwatch-commands-part-1/)
+8. [指令 Part 2](https://cythilya.github.io/2017/12/18/nightwatch-commands-part-2/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
