@@ -48,3 +48,11 @@ nightwatch-html-reporter -d ./reports
 3. [環境建置](https://cythilya.github.io/2017/12/13/nightwatch-installation/)
 4. [設定檔](https://cythilya.github.io/2017/12/14/04-nightwatch-config/)
 5. [使用 CSS Selector 定位網頁元素](https://cythilya.github.io/2017/12/15/nightwatch-css-selector/)
+
+## Todos
+持續改進中，未來會繼續完成的項目...
+
+- [ ] localhost test
+- [ ] 設定假的 https certificate，然後 bypass https
+- [ ] 假資料填充、測完後移除
+- [ ] CI/CD 整合
