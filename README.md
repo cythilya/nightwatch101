@@ -27,7 +27,7 @@ npm test
 ```
 
 ## 測試報告
-安裝 [nightwatch-html-reporter](nightwatch-html-reporter)。
+安裝 [nightwatch-html-reporter](https://github.com/jls/nightwatch-html-reporter)。
 
 ```
 npm install -g nightwatch-html-reporter
