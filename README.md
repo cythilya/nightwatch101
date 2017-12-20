@@ -52,6 +52,7 @@ nightwatch-html-reporter -d ./reports
 7. [指令 Part 1](https://cythilya.github.io/2017/12/17/nightwatch-commands-part-1/)
 8. [指令 Part 2](https://cythilya.github.io/2017/12/18/nightwatch-commands-part-2/)
 9. [指令 Part 3](https://cythilya.github.io/2017/12/19/nightwatch-commands-part-3/)
+10. [BDD Expect](https://cythilya.github.io/2017/12/20/nightwatch-bdd-expect/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
