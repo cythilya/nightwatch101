@@ -29,6 +29,7 @@ module.exports = {
       .getTitle(title => {
         browser.assert.equal(title, '露天拍賣-台灣 NO.1 拍賣網站');
       })
+      .click('#header_logout_link')
       .end()
   },
   'Go Shopping!': browser => {
