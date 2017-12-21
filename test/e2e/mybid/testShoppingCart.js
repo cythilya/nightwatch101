@@ -36,9 +36,7 @@ module.exports = {
       .url('http://goods.ruten.com.tw/item/show?21545984643540')
       .waitForElementVisible('body') // 商品頁
       .useXpath()
-      .click('//*[@id="goods-spec-setting"]/div/div/div/div[1]/div/button[2]', res => {
-        console.log(res);
-      })
+      .click('//*[@id="goods-spec-setting"]/div/div/div/div[1]/div/button[2]')
       .useCss()
       .waitForElementVisible('.item-purchase-action')
       .click('.item-purchase-action')
