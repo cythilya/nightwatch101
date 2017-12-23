@@ -9,9 +9,9 @@ module.exports = {
             .url('https://member.ruten.com.tw/user/login.htm')
             .waitForElementVisible('body')
             .clearValue('#userid')
-            .setValue('#userid', 'nightwatch101')
+            .setValue('#userid', 'nightwatch100')
             .clearValue('#userpass')
-            .setValue('#userpass', 'nightwatch101')
+            .setValue('#userpass', 'nightwatch100')
             .click('.rt-button-submit')
             .waitForElementVisible('body')
             .getTitle(title => {
@@ -34,10 +34,12 @@ module.exports = {
   },
   'Go Shopping!': browser => {
     browser
-      .url('http://goods.ruten.com.tw/item/show?21545984643540')
+      .url('http://goods.ruten.com.tw/item/show?21751464218102')
       .waitForElementVisible('body') // 商品頁
       .useXpath()
-      .click('//*[@id="goods-spec-setting"]/div/div/div/div[1]/div/button[2]')
+      .click('//*[@id="goods-spec-setting"]/div/div[1]/div[1]/div/ul/li[1]/button')
+      .click('//*[@id="goods-spec-setting"]/div/div[1]/div[2]/div/ul/li[2]/button')
+      .click('//*[@id="goods-spec-setting"]/div/div[2]/div/div/div[1]/button[2]')
       .useCss()
       .waitForElementVisible('.item-purchase-action')
       .click('.item-purchase-action')
