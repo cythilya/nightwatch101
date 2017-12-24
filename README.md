@@ -56,6 +56,7 @@ nightwatch-html-reporter -d ./reports
 11. [BDD Assert](https://cythilya.github.io/2017/12/21/nightwatch-bdd-assert/)
 12. [BDD Verify](https://cythilya.github.io/2017/12/22/nightwatch-bdd-verify/)
 13. [Test Hooks](https://cythilya.github.io/2017/12/23/nightwatch-test-hooks/)
+14. [Asynchronous Test Hooks](https://cythilya.github.io/2017/12/24/nightwatch-asynchronous-test-hooks/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
