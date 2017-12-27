@@ -59,6 +59,7 @@ nightwatch-html-reporter -d ./reports
 14. [Asynchronous Test Hooks](https://cythilya.github.io/2017/12/24/nightwatch-asynchronous-test-hooks/)
 15. [External Globals](https://cythilya.github.io/2017/12/25/nightwatch-external-globals/)
 16. [簡單測試範例](https://cythilya.github.io/2017/12/26/nightwatch-example-1/)
+17. [Nightwatch Test Runner](https://cythilya.github.io/2017/12/27/nightwatch-test-runner/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
