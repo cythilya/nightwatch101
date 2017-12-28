@@ -5,16 +5,16 @@
 
   <testsuite name="class.testMainCategoryAsyncHooks"
     errors="0" failures="0" hostname="" id="" package="class" skipped="0"
-    tests="2" time="32.33" timestamp="Tue, 12 Dec 2017 11:59:26 GMT">
+    tests="2" time="63.87" timestamp="Tue, 19 Dec 2017 13:42:04 GMT">
   
-    <testcase name="Assert Ruten MainCategory Title 0008" classname="class.testMainCategoryAsyncHooks" time="15.34" assertions="2">
+    <testcase name="Assert Ruten MainCategory Title 0008" classname="class.testMainCategoryAsyncHooks" time="32.01" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Assert Ruten MainCategory Title 0011" classname="class.testMainCategoryAsyncHooks" time="17.00" assertions="2">
+    <testcase name="Assert Ruten MainCategory Title 0011" classname="class.testMainCategoryAsyncHooks" time="31.86" assertions="2">
 
     
 

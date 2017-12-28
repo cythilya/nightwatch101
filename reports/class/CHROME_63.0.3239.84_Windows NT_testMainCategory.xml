@@ -5,9 +5,9 @@
 
   <testsuite name="class.testMainCategory"
     errors="0" failures="0" hostname="" id="" package="class" skipped="0"
-    tests="1" time="12.33" timestamp="Tue, 12 Dec 2017 11:59:26 GMT">
+    tests="1" time="29.80" timestamp="Tue, 19 Dec 2017 13:42:04 GMT">
   
-    <testcase name="Assert Ruten MainCategory Title" classname="class.testMainCategory" time="12.33" assertions="2">
+    <testcase name="Assert Ruten MainCategory Title" classname="class.testMainCategory" time="29.80" assertions="2">
 
     
 

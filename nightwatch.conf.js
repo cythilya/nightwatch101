@@ -34,6 +34,7 @@ const config = {
       "silent": true,
       "globals": {
         "waitForConditionTimeout": 10000
+        // "retryAssertionTimeout ": 500
       },
       "desiredCapabilities": {
         "browserName": "chrome",
