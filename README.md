@@ -63,6 +63,7 @@ nightwatch-html-reporter -d ./reports
 18. [依照分組做測試（Test Groups）](https://cythilya.github.io/2017/12/28/nightwatch-test-groups/)
 19. [依照標籤做測試（Test Tags）](https://cythilya.github.io/2017/12/29/nightwatch-test-tags/)
 20. [禁跑特定測試（Disable Tests）](https://cythilya.github.io/2017/12/30/nightwatch-disabling-tests/)
+21. [平行執行測試程式](https://cythilya.github.io/2017/12/31/nightwatch-parallel-running/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
