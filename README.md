@@ -65,6 +65,7 @@ nightwatch-html-reporter -d ./reports
 20. [禁跑特定測試（Disable Tests）](https://cythilya.github.io/2017/12/30/nightwatch-disabling-tests/)
 21. [平行執行測試程式](https://cythilya.github.io/2017/12/31/nightwatch-parallel-running/)
 22. [Page Objects](https://cythilya.github.io/2018/01/01/nightwatch-page-objects/)
+23. [使用 Sections 優化 Page Objects](https://cythilya.github.io/2018/01/02/nightwatch-page-objects-sections/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
