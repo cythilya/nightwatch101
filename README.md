@@ -66,6 +66,7 @@ nightwatch-html-reporter -d ./reports
 21. [平行執行測試程式](https://cythilya.github.io/2017/12/31/nightwatch-parallel-running/)
 22. [Page Objects](https://cythilya.github.io/2018/01/01/nightwatch-page-objects/)
 23. [使用 Sections 優化 Page Objects](https://cythilya.github.io/2018/01/02/nightwatch-page-objects-sections/)
+24. [客製化指令（Custom Commands）](https://cythilya.github.io/2018/01/03/nightwatch-custom-commands/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
