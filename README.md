@@ -73,6 +73,7 @@ nightwatch-html-reporter -d ./reports
 22. [Page Objects](https://cythilya.github.io/2018/01/01/nightwatch-page-objects/)
 23. [使用 Sections 優化 Page Objects](https://cythilya.github.io/2018/01/02/nightwatch-page-objects-sections/)
 24. [客製化指令（Custom Commands）](https://cythilya.github.io/2018/01/03/nightwatch-custom-commands/)
+25. [客製化斷言（Custom Assertions）](https://cythilya.github.io/2018/01/04/nightwatch-custom-assertions/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
