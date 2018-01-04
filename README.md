@@ -7,7 +7,13 @@
 簡易安裝步驟如下。
 
 ### Step 1：安裝 Java Development Kit（JDK）
-安裝 [Java Development Kit（JDK）](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)，至少版本 7 以上。
+安裝 [Java Development Kit（JDK）](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)，至少版本 7 以上。（適用 Windows 和 macOS）
+
+在 Linux 用 `apt` 安裝:
+
+```bash
+sudo apt install openjdk-8-jdk # 版本號可以改
+```
 
 ### Step 2：下載專案
 下載本專案並移動到此資料夾底下。
