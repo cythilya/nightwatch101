@@ -76,6 +76,7 @@ nightwatch-html-reporter -d ./reports
 25. [客製化斷言（Custom Assertions）](https://cythilya.github.io/2018/01/04/nightwatch-custom-assertions/)
 26. [客製化測試報告](https://cythilya.github.io/2018/01/05/nightwatch-custom-reporter/)
 27. [進階測試範例](https://cythilya.github.io/2018/01/06/nightwatch-example-2/)
+28. [獨立使用 ChromeDriver 跑測試](https://cythilya.github.io/2018/01/07/nightwatch-standalone-chrome-driver/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
