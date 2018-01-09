@@ -47,8 +47,6 @@ nightwatch-html-reporter -d ./reports
 ```
 
 ## 教學
-待 2018 鐵人賽補好補滿。
-
 1. [前言](https://cythilya.github.io/2017/12/11/nightwatch-intro/)
 2. [Nightwatch 與 Selenium Webdriver](https://cythilya.github.io/2017/12/12/nightwatch-and-selenium-webdriver/)
 3. [環境建置](https://cythilya.github.io/2017/12/13/nightwatch-installation/)
@@ -78,6 +76,7 @@ nightwatch-html-reporter -d ./reports
 27. [進階測試範例](https://cythilya.github.io/2018/01/06/nightwatch-example-2/)
 28. [獨立使用 ChromeDriver 跑測試](https://cythilya.github.io/2018/01/07/nightwatch-standalone-chrome-driver/)
 29. [Selenium IDE](https://cythilya.github.io/2018/01/08/selenium-ide/)
+30. [總結](https://cythilya.github.io/2018/01/09/nightwatch-summary/)
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
