@@ -10,7 +10,6 @@ module.exports = {
     browser.expect.element('#ad-flash .rt-ad-item').to.be.present;
     browser.expect.element('.rt-flagship').to.be.visible;
     browser.expect.element('.rt-flagship .rt-ad-item').to.be.present;
-    browser.expect.element('.rt-flagship .rt-ad-item').to.be.present;
     browser.expect.element('#ad-promote .promoted-item').to.present;
     browser.expect.element('#ad-special .special-item').to.be.present;
     browser.expect.element('.hot-sale-item').to.be.present;
