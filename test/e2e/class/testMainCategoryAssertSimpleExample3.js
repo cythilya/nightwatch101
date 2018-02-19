@@ -16,14 +16,3 @@ module.exports = {
       .end();
   }
 };
-
-'Test Main Category Page': browser => {
-  browser
-    .url('http://class.ruten.com.tw/category/main?0008')
-    .assert.title('相機、攝影機 - 露天拍賣')
-    .assert.attributeEquals('.submit', 'type', 'submit') // 屬性 type 等於 submit？
-    .assert.attributeContains('.submit', 'class', 'button') // 檢視 class 包含 rt-button？
-    .assert.cssProperty('.submit', 'min-height', '24px') // CSS 屬性等於指定的值？
-    .assert.cssClassPresent('.submit', 'button') // 含有 CSS class？ 
-    .end();
-}
