@@ -13,15 +13,3 @@ module.exports = {
       .end();
   }
 };
-
-'Test Main Category Page': browser => {
-  browser
-    .url('http://class.ruten.com.tw/category/main?0008')
-    .assert.title('相機、攝影機 - 露天拍賣') // title 等於特定字串 ？
-    .setValue('#search_input', '好吃的蛋糕')
-    .assert.value('#search_input', '好吃的蛋糕') // 表單元件的值等於「好吃的蛋糕」？
-    .assert.valueContains('#search_input', '蛋糕') // 表單元件的值包含「蛋糕」？
-    .assert.containsText('.submit', '再搜尋') // 文字節點內容包含「再搜尋」 ？
-    .end();
-}
-
