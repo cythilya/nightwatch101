@@ -1,6 +1,6 @@
 module.exports = {
   '@tags': ['class'],
-  'Assert Categoty Advertisements': browser => {
+  'Assert Category Advertisements': browser => {
     browser
       .url('http://class.ruten.com.tw/category/main?0008')
       .waitForElementVisible('body')
