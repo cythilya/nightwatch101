@@ -33,8 +33,9 @@ const config = {
       "selenium_host": "127.0.0.1",
       "silent": true,
       "globals": {
-        "waitForConditionTimeout": 10000
-        // "retryAssertionTimeout ": 500
+        "waitForConditionTimeout": 10000,
+        // "retryAssertionTimeout ": 500,
+        "rtContext": {}
       },
       "desiredCapabilities": {
         "browserName": "chrome",
