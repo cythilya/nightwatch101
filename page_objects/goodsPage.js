@@ -1,28 +1,62 @@
-var findCommands = {
-  submit: function() {
-    this.api.pause(1000);
-    return this.waitForElementVisible('@submit', 1000)
-      .click('@submit')
+const goodsCommands = {
+  switchTab: function(hashValue) {
+    return this.url.client.urlHash(hashValue)
   }
-};
+}
 
 module.exports = {
-  url: 'http://goods.ruten.com.tw/item/show?21719229974339',
-  commands: [findCommands],
-  elements: {
-    searchbox: {
-      selector: '#keyword'
-    },
-    submit: {
-      selector: '.header-search-submit'
-    }
+  url: function() {
+    let goodsID = '21719229974339';
+    // Todo: 依照環境選擇不同的 goodsID
+    return this.rtUrl('goods', '/item/show?' + goodsID);
   },
+  commands: [goodsCommands],
   sections: {
-    goodsInfo: {
-      selector: '#mod-goods-main-1',
+    auctionData: {
+      selector: '.auction-data',
       elements: {
-        title: {
-          selector: '.item-title'
+        gallery: {
+          selector: '.item-gallery-main-image'
+        },
+        coverImage: {
+          selector: '.js-main-img'
+        },
+        selectedThumbnail: {
+          selector: '.imgSelected img'
+        },
+        imgPopup: {
+          selector: '.img-popup'
+        },
+        imgPopupCloseBtn: {
+          selector: '.img-popup .rt-jqmodal-jqmClose'
+        },
+        qtyBtnPlus: {
+          selector: '.item-qty-button-plus'
+        },
+        qtyBtnMinus: {
+          selector: '.item-qty-button-minus'
+        }
+      }
+    },
+    tabs: {
+      selector: '.rt-tab-wrap',
+      elements: {
+        tabGoodsDetail: {
+          selector: '.rt-tab-item:nth-of-type(1) a'
+        },
+        tabQnA: {
+          selector: '.rt-tab-item:nth-of-type(2) a'
+        },
+        tabHistory: {
+          selector: '.rt-tab-item:nth-of-type(3) a'
+        }
+      }
+    },
+    sidebar: {
+      selector: '.sidebar-wrap',
+      elements: {
+        sideAdvertise: {
+          selector: '.side-advertise'
         }
       }
     }
