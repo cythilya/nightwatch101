@@ -4,18 +4,18 @@ exports.assertion = function(selector, count) {
   this.expected = count;
   
   this.value = function(result) {
-    return result.value
+    return result
   };
   
   this.pass = function(value) {
     return value > this.expected
   };
 
-  this.command = function(cb) {
+  this.command = function() {
     return this.api.execute(function(selector) {
       return document.querySelectorAll(selector).length;
     }, [selector], function(res) {
-      cb.call(this, res);
+      cb.call(this, res.value);
     }.bind(this));
   };
 };
