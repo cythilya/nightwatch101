@@ -1,7 +1,9 @@
 const HtmlReporter = require('nightwatch-html-reporter');
 const reporter = new HtmlReporter({
-  openBrowser: false,
-  reportsDirectory: __dirname + '/reports'
+  openBrowser: true,
+  reportsDirectory: __dirname + '/reports',
+  uniqueFilename: true, // 測試報告是否要加上 timestamp
+  separateReportPerSuite: true, // 測試報告是否要加上 test suite 的名稱
 });
 
 const beforeFn = function(cb){
