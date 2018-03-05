@@ -7,25 +7,23 @@ const reporter = new HtmlReporter({
   themeName: 'cover'
 });
 
-const beforeFn = function(cb){
-  process.argv.forEach(string => {
-    let key   = string.replace(/^--(.*)=.*/, '$1');
-    let value = string.replace(/^--.*=(.*)/, '$1');
-    switch (key) {
-      case 'rtEnv':
-      case 'userName':
-      case 'customTag':
-        this.rtContext[key] = value;
-        break;
-    }
-  });
-
-  cb();
-};
-
 module.exports = {
   reporter: reporter.fn,
-  before: beforeFn, // before all test suites...,
+  before: function(done) {
+    process.argv.forEach(string => {
+      let key   = string.replace(/^--(.*)=.*/, '$1');
+      let value = string.replace(/^--.*=(.*)/, '$1');
+      switch (key) {
+        case 'rtEnv':
+        case 'userName':
+        case 'customTag':
+          this.rtContext[key] = value;
+          break;
+      }
+    });
+
+    done();
+  },
   after: function(done) {
     done();
   },
