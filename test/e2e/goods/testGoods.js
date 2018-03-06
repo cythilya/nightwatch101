@@ -1,5 +1,3 @@
-require('../../../page_objects/goodsPage.js');
-
 module.exports = {
   '@tags': ['goods'],
   'Auction Data': browser => {  // 商品資訊
@@ -7,21 +5,22 @@ module.exports = {
     let auctionData = goodsPage.section.auctionData;
     goodsPage.navigate();
     // goodsPage.expect.section('@auctionData').to.be.visible;
-    goodsPage.assert.title('好ㄘ的布丁(新) test_168 2 - 露天拍賣');
+    goodsPage.verify.title('購物車上線好棒棒 (*´∀`)~♥ - 露天拍賣');
 
     auctionData
-      .assert.visible('@gallery') // 至少有一張圖
-      .assert.visible('@selectedThumbnail') // 至少有一張縮圖
-      .click('@coverImage')
-      .assert.visible('@imgPopup')
-      .click('@imgPopupCloseBtn')
-      .assert.hidden('@imgPopup')
-      .assert.attributeEquals('@qtyBtnMinus', 'disabled', 'true')
-      .click('@qtyBtnPlus');
-    auctionData.expect.element('@qtyBtnMinus').not.to.have.attribute('disabled')
-    auctionData
-      .click('@qtyBtnMinus')
-      .assert.attributeEquals('@qtyBtnMinus', 'disabled', 'true');
+      .verify.visible('@gallery') // 至少有一張圖
+      .verify.visible('@selectedThumbnail') // 至少有一張縮圖
+      .click('@coverImage') // 點擊縮圖會出現 popup
+      .verify.visible('@imgPopup')
+      .click('@imgPopupCloseBtn') // 關閉 popup
+      .verify.hidden('@imgPopup') // popup 應為隱藏
+      .verify.attributeEquals('@qtyBtnMinus', 'disabled', 'true') // 未選規格以前，不可選/填數量
+      .verify.attributeEquals('@qtyBtnMinus', 'disabled', 'true')
+      .click('#goods-spec-setting > div > div:nth-child(1) > div:nth-child(1) > div > ul > li:nth-child(1) > button') // 選規格
+      .click('#goods-spec-setting > div > div:nth-child(1) > div:nth-child(2) > div > ul > li:nth-child(2) > button') // 選項目
+      .click('@qtyBtnPlus') // 數量 +1
+      .click('@qtyBtnMinus') // 數量 -1
+      .verify.attributeEquals('@qtyBtnMinus', 'disabled', 'true');
   },
   'Tabs': browser => { // 商品說明、問與答、購買人次
     let goodsPage = browser.page.goodsPage();
@@ -30,12 +29,12 @@ module.exports = {
     // goodsPage.expect.section('@tabs').to.be.visible;
 
     tabs
-      .assert.visible('@tabGoodsDetail')
-      .assert.containsText('@tabGoodsDetail', '商品說明')
-      .assert.visible('@tabQnA')
-      .assert.containsText('@tabQnA', '問與答')
-      .assert.visible('@tabHistory')
-      .assert.containsText('@tabHistory', '購買人次');
+      .verify.visible('@tabGoodsDetail')
+      .verify.containsText('@tabGoodsDetail', '商品說明')
+      .verify.visible('@tabQnA')
+      .verify.containsText('@tabQnA', '問與答')
+      .verify.visible('@tabHistory')
+      .verify.containsText('@tabHistory', '購買人次');
   },
   'Sidebar': browser => {
     let goodsPage = browser.page.goodsPage();
@@ -45,7 +44,7 @@ module.exports = {
 
     // sidebar: 廣告相關
     sidebar
-      .assert.visible('@sideAdvertise');
+      .verify.visible('@sideAdvertise');
 
     browser.end();
   }

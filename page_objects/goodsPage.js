@@ -6,7 +6,7 @@ const goodsCommands = {
 
 module.exports = {
   url: function() {
-    let goodsID = '21719229974339';
+    let goodsID = '21751464218102';
     // Todo: 依照環境選擇不同的 goodsID
     return this.rtUrl('goods', '/item/show?' + goodsID);
   },
