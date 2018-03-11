@@ -87,3 +87,4 @@ nightwatch-html-reporter -d ./reports
 - [ ] 設定假的 https certificate，然後 bypass https
 - [ ] 假資料填充、測完後移除
 - [ ] CI/CD 整合
+- [ ] 通知機制
