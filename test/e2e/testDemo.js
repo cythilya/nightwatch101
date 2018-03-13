@@ -4,5 +4,5 @@ module.exports = {
       .url('https://cythilya.github.io/')
       .waitForElementVisible('body')
       .end()
-    }
+  }
 }
