@@ -47,6 +47,10 @@ nightwatch-html-reporter -d ./reports
 ```
 
 ## 教學
+投影片-快速上手版。
+[Nightwatch101-手牽手一起來學 Nightwatch！](https://www.slideshare.net/cythilya/nightwatch101)
+
+鐵人賽-詳細說明版。
 1. [前言](https://cythilya.github.io/2017/12/11/nightwatch-intro/)
 2. [Nightwatch 與 Selenium Webdriver](https://cythilya.github.io/2017/12/12/nightwatch-and-selenium-webdriver/)
 3. [環境建置](https://cythilya.github.io/2017/12/13/nightwatch-installation/)
