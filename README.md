@@ -92,3 +92,4 @@ nightwatch-html-reporter -d ./reports
 - [ ] 假資料填充、測完後移除
 - [ ] CI/CD 整合
 - [ ] 通知機制
+- [ ] 手機版網站測試範例
