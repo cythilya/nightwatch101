@@ -82,7 +82,7 @@ nightwatch-html-reporter -d ./reports
 29. [Selenium IDE](https://cythilya.github.io/2018/01/08/selenium-ide/)
 30. [總結](https://cythilya.github.io/2018/01/09/nightwatch-summary/)
 
-[鐵人賽版](https://ithelp.ithome.com.tw/users/20092232/ironman/1241)。
+[2018 iT 邦幫忙鐵人賽](https://ithelp.ithome.com.tw/users/20092232/ironman/1241)。
 
 ## Todos
 持續改進中，未來會繼續完成的項目...
