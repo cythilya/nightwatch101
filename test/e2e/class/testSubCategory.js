@@ -2,8 +2,8 @@ module.exports = {
   '@tags': ['class'],
   'Demo Ruten SubCategory Page': browser => {
     browser
-      .url('http://class.ruten.com.tw/category/sub00.php?c=00080001') // 打開網頁
-      .waitForElementVisible('body', 1000) // 等待 1 秒，確認 <body> 這個元素是否出現
+      .rtUrl('class', 'category/sub00.php?c=00080001') // 打開網頁
+      .waitForElementVisible('body', 1000) // 等待 1 秒，確認 <body> 這個元素是否可見
       .getTitle(function(title) { // 取得網頁標題
         this.assert.equal(typeof title, 'string'); // 確認取得的資料型別是否為字串
         this.assert.equal(title, 'DC數位相機 - 露天拍賣');  // 確認內容是否為"DC數位相機 - 露天拍賣"
@@ -31,7 +31,7 @@ module.exports = {
         this.assert.equal(result.status, 0);
         this.assert.equal(result.value, 'normal');
       })
-      .getElementSize('#searchButton', result => { // 取得元素 ".rt-site-search-submit" 的寬高，並比對其寬是否為 75px，其高是否為 27px
+      .getElementSize('#searchButton', result => { // 取得元素 ".rt-site-search-submit" 的寬高，並比對其寬是否為 76px，其高是否為 27px
         browser.assert.equal(typeof result, 'object');
         browser.assert.equal(result.status, 0);
         browser.assert.equal(result.value.width, 76);
