@@ -1,9 +1,7 @@
-require('../../../page_objects/findPage.js')
-
 module.exports = {
   '@tags': ['find'],
-  'Find Pusheen': function (browser) {
-    var findPage = browser.page.findPage();
+  'Find Pusheen': browser => {
+    const findPage = browser.page.findPage(); // 使用 page object
 
     findPage.navigate()
       .assert.title('搜尋結果 : Pusheen - 露天拍賣')

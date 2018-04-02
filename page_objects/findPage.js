@@ -11,18 +11,18 @@ module.exports = {
   commands: [findCommands],
   elements: {
     searchbox: {
-      selector: '#search_input'
+      selector: '#searchInput'
     },
     submit: {
-      selector: '.rt-site-search-submit'
+      selector: '#searchButton'
     }
   },
   sections: {
     filter: {
-      selector: '#side_filter',
+      selector: '#NarrowContainer',
       elements: {
         title: {
-          selector: '.rt-filter-title'
+          selector: '.head'
         }
       }
     }
