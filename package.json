@@ -4,7 +4,8 @@
   "description": "nightwatch for end-to-end testing",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch --env local"
+    "test": "./node_modules/.bin/nightwatch --env local",
+    "report": "./node_modules/.bin/nightwatch-html-reporter -d ./reports"
   },
   "repository": {
     "type": "git",
