@@ -46,6 +46,11 @@ nightwatch test/e2e/
 nightwatch-html-reporter -d ./reports
 ```
 
+或者，在本專案中也可以執行：
+```
+npm run report
+```
+
 ## 教學
 ### 投影片-快速上手版
 [Nightwatch101-手牽手一起來學 Nightwatch！](https://www.slideshare.net/cythilya/nightwatch101)
